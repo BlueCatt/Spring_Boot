@@ -1,0 +1,5 @@
+Controller:
+		@PathVariable         //to fetch data in url
+		@RequestParam         //to fetch request parameters
+		@GetMapping           //GET method mapping
+		
