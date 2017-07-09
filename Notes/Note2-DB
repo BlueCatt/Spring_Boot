@@ -1,0 +1,17 @@
+What is JPA?
+		JPA is a standard to define objects persistence.
+
+@Entity           //
+    //这两个针对主键，自增
+    @Id
+    @GeneratedValue
+    
+    
+  jpa:
+    hibernate:
+      ddl-auto: create         //每次运行，先删掉原有的表，在新建，不保留原有的值
+                create-drop    //应用停下来的时候，会把表删掉
+                update         //保留已有的数据
+                validate       //验证表的属性和类是否一致，不一致会报错
+                none           //什么都不做？
+                
