@@ -21,3 +21,8 @@ What is JPA?
 @PutMapping
 @DeleteMapping
                 
+
+
+
+//事务 {日后再说}
+@Transactional
