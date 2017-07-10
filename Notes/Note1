@@ -3,3 +3,8 @@ Controller:
 		@RequestParam         //to fetch request parameters
 		@GetMapping           //GET method mapping
 		
+		
+关于调用配置文件里的属性（映射):
+		@Value 可以支持属性里面调用属性
+		
+		@Autowired 不支持，不知道如何使用
