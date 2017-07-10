@@ -1,5 +1,5 @@
 Controller:
-		@PathVariable         //to fetch data in url
+		@PathVariable         //to fetch data in url  url里传的变量
 		@RequestParam         //to fetch request parameters
 		@GetMapping           //GET method mapping
 		
