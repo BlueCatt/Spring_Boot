@@ -14,4 +14,10 @@ What is JPA?
                 update         //保留已有的数据
                 validate       //验证表的属性和类是否一致，不一致会报错
                 none           //什么都不做？
+		
+//定义映射的方法
+@GetMapping
+@PostMapping
+@PutMapping
+@DeleteMapping
                 
